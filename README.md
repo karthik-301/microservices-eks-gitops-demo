@@ -12,8 +12,7 @@ An AWS Application Load Balancer (ALB), created by the AWS Load Balancer Control
 
 ## 🏗️ **Architecture**
 
-<img width="1504" height="451" alt="image" src="https://github.com/user-attachments/assets/5a8015e8-edb6-4985-bc4b-42cf780727ad" />
-
+<img width="1342" height="501" alt="image" src="https://github.com/user-attachments/assets/eb14f12e-65e8-486f-8f39-66e007f0ead8" />
 
 **End-to-end flow:**
 
@@ -112,7 +111,7 @@ GitHub Actions workflow executed successfully.
 
 <br>
 
-![ci](https://github.com/user-attachments/assets/be851f84-07d7-485a-8a9e-2be511496cfc)
+![ci](https://github.com/user-attachments/assets/61282b21-5b00-4af3-b50a-8d5adea36457)
 
 </details>
 
@@ -125,7 +124,8 @@ Docker image built and pushed to Docker Hub.
 
 <br>
 
-![docker](https://github.com/user-attachments/assets/1e5dce39-28a0-4454-bf2a-00fcc441d4c6)
+![dockerhub](https://github.com/user-attachments/assets/f769bd63-e0d6-44d6-b388-53bf45674903)
+
 
 </details>
 
@@ -138,7 +138,8 @@ Argo CD successfully pulled and synced Kubernetes manifests.
 
 <br>
 
-![argocd](https://github.com/user-attachments/assets/819c6352-e9cd-46aa-b884-7a7bafc57c95)
+![argocd](https://github.com/user-attachments/assets/20c8ba87-750b-4d13-9feb-af4ebf4b0adb)
+
 
 </details>
 
@@ -152,7 +153,8 @@ Pending state confirms the deployment reached Kubernetes.
 
 <br>
 
-<img width="900" src="https://github.com/user-attachments/assets/d4f2ae79-7c5a-4cc8-b288-80e9f7c9aebd" />
+![workload-pods](https://github.com/user-attachments/assets/37e0d2eb-daca-44de-8840-3020378cec2c)
+
 
 </details>
 
@@ -165,7 +167,8 @@ Ingress successfully created an Internet-facing ALB.
 
 <br>
 
-<img width="900" src="https://github.com/user-attachments/assets/ca973646-1b6a-4a2b-9ba1-04a564d6c475" />
+![alb](https://github.com/user-attachments/assets/ee462b5d-c820-4213-b0e7-ea3c7df16f3f)
+
 
 </details>
 
